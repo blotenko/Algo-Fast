@@ -14,9 +14,19 @@
 		79E09C932822DB1700029B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E09C922822DB1700029B99 /* Assets.xcassets */; };
 		79E09C962822DB1700029B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09C942822DB1700029B99 /* LaunchScreen.storyboard */; };
 		79E09C992822DB1700029B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E09C982822DB1700029B99 /* main.m */; };
-		79E09CA32822DB1700029B99 /* Algo_FastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CA22822DB1700029B99 /* Algo_FastTests.m */; };
+		79E09CA32822DB1700029B99 /* Algo_FastTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CA22822DB1700029B99 /* Algo_FastTests.mm */; };
 		79E09CAD2822DB1700029B99 /* Algo_FastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CAC2822DB1700029B99 /* Algo_FastUITests.m */; };
 		79E09CAF2822DB1700029B99 /* Algo_FastUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CAE2822DB1700029B99 /* Algo_FastUITestsLaunchTests.m */; };
+		79E09CC82822DB3700029B99 /* bubblesort.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CBB2822DB3600029B99 /* bubblesort.storyboard */; };
+		79E09CC92822DB3700029B99 /* alogorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CBC2822DB3600029B99 /* alogorithms.cpp */; };
+		79E09CCA2822DB3700029B99 /* mainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CBD2822DB3600029B99 /* mainMenu.storyboard */; };
+		79E09CCB2822DB3700029B99 /* results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CBE2822DB3600029B99 /* results.storyboard */; };
+		79E09CCC2822DB3700029B99 /* resultsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CC12822DB3700029B99 /* resultsViewController.mm */; };
+		79E09CCD2822DB3700029B99 /* mainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E09CC22822DB3700029B99 /* mainMenuViewController.m */; };
+		79E09CCE2822DB3700029B99 /* insertionSort.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CC32822DB3700029B99 /* insertionSort.storyboard */; };
+		79E09CCF2822DB3700029B99 /* mergeSort.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CC42822DB3700029B99 /* mergeSort.storyboard */; };
+		79E09CD02822DB3700029B99 /* merge+Sort.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CC52822DB3700029B99 /* merge+Sort.storyboard */; };
+		79E09CD12822DB3700029B99 /* quickSort.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E09CC72822DB3700029B99 /* quickSort.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +60,24 @@
 		79E09C972822DB1700029B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79E09C982822DB1700029B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79E09C9E2822DB1700029B99 /* Algo FastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo FastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79E09CA22822DB1700029B99 /* Algo_FastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algo_FastTests.m; sourceTree = "<group>"; };
+		79E09CA22822DB1700029B99 /* Algo_FastTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Algo_FastTests.mm; sourceTree = "<group>"; };
 		79E09CA82822DB1700029B99 /* Algo FastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo FastUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E09CAC2822DB1700029B99 /* Algo_FastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algo_FastUITests.m; sourceTree = "<group>"; };
 		79E09CAE2822DB1700029B99 /* Algo_FastUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Algo_FastUITestsLaunchTests.m; sourceTree = "<group>"; };
+		79E09CBB2822DB3600029B99 /* bubblesort.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = bubblesort.storyboard; sourceTree = "<group>"; };
+		79E09CBC2822DB3600029B99 /* alogorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alogorithms.cpp; sourceTree = "<group>"; };
+		79E09CBD2822DB3600029B99 /* mainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainMenu.storyboard; sourceTree = "<group>"; };
+		79E09CBE2822DB3600029B99 /* results.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = results.storyboard; sourceTree = "<group>"; };
+		79E09CBF2822DB3600029B99 /* alogorithms.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = alogorithms.hpp; sourceTree = "<group>"; tabWidth = 4; };
+		79E09CC02822DB3600029B99 /* resultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultsViewController.h; sourceTree = "<group>"; };
+		79E09CC12822DB3700029B99 /* resultsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = resultsViewController.mm; sourceTree = "<group>"; };
+		79E09CC22822DB3700029B99 /* mainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMenuViewController.m; sourceTree = "<group>"; };
+		79E09CC32822DB3700029B99 /* insertionSort.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = insertionSort.storyboard; sourceTree = "<group>"; };
+		79E09CC42822DB3700029B99 /* mergeSort.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mergeSort.storyboard; sourceTree = "<group>"; };
+		79E09CC52822DB3700029B99 /* merge+Sort.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "merge+Sort.storyboard"; sourceTree = "<group>"; };
+		79E09CC62822DB3700029B99 /* mainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMenuViewController.h; sourceTree = "<group>"; };
+		79E09CC72822DB3700029B99 /* quickSort.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = quickSort.storyboard; sourceTree = "<group>"; };
+		79E09CD2282331C800029B99 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +128,31 @@
 		79E09C852822DB1500029B99 /* Algo Fast */ = {
 			isa = PBXGroup;
 			children = (
+				79E09CBC2822DB3600029B99 /* alogorithms.cpp */,
+				79E09CBF2822DB3600029B99 /* alogorithms.hpp */,
+				79E09CC62822DB3700029B99 /* mainMenuViewController.h */,
+				79E09CC22822DB3700029B99 /* mainMenuViewController.m */,
+				79E09CC02822DB3600029B99 /* resultsViewController.h */,
+				79E09CC12822DB3700029B99 /* resultsViewController.mm */,
+				79E09CBB2822DB3600029B99 /* bubblesort.storyboard */,
+				79E09CC32822DB3700029B99 /* insertionSort.storyboard */,
+				79E09CBD2822DB3600029B99 /* mainMenu.storyboard */,
+				79E09CC52822DB3700029B99 /* merge+Sort.storyboard */,
+				79E09CC42822DB3700029B99 /* mergeSort.storyboard */,
+				79E09CC72822DB3700029B99 /* quickSort.storyboard */,
+				79E09CBE2822DB3600029B99 /* results.storyboard */,
+				79E09C8F2822DB1500029B99 /* Main.storyboard */,
 				79E09C862822DB1500029B99 /* AppDelegate.h */,
 				79E09C872822DB1500029B99 /* AppDelegate.m */,
 				79E09C892822DB1500029B99 /* SceneDelegate.h */,
 				79E09C8A2822DB1500029B99 /* SceneDelegate.m */,
 				79E09C8C2822DB1500029B99 /* ViewController.h */,
 				79E09C8D2822DB1500029B99 /* ViewController.m */,
-				79E09C8F2822DB1500029B99 /* Main.storyboard */,
 				79E09C922822DB1700029B99 /* Assets.xcassets */,
 				79E09C942822DB1700029B99 /* LaunchScreen.storyboard */,
 				79E09C972822DB1700029B99 /* Info.plist */,
 				79E09C982822DB1700029B99 /* main.m */,
+				79E09CD2282331C800029B99 /* Header.h */,
 			);
 			path = "Algo Fast";
 			sourceTree = "<group>";
@@ -122,7 +160,7 @@
 		79E09CA12822DB1700029B99 /* Algo FastTests */ = {
 			isa = PBXGroup;
 			children = (
-				79E09CA22822DB1700029B99 /* Algo_FastTests.m */,
+				79E09CA22822DB1700029B99 /* Algo_FastTests.mm */,
 			);
 			path = "Algo FastTests";
 			sourceTree = "<group>";
@@ -239,7 +277,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E09CC82822DB3700029B99 /* bubblesort.storyboard in Resources */,
+				79E09CD02822DB3700029B99 /* merge+Sort.storyboard in Resources */,
+				79E09CCA2822DB3700029B99 /* mainMenu.storyboard in Resources */,
 				79E09C962822DB1700029B99 /* LaunchScreen.storyboard in Resources */,
+				79E09CCF2822DB3700029B99 /* mergeSort.storyboard in Resources */,
+				79E09CCB2822DB3700029B99 /* results.storyboard in Resources */,
+				79E09CD12822DB3700029B99 /* quickSort.storyboard in Resources */,
+				79E09CCE2822DB3700029B99 /* insertionSort.storyboard in Resources */,
 				79E09C932822DB1700029B99 /* Assets.xcassets in Resources */,
 				79E09C912822DB1500029B99 /* Main.storyboard in Resources */,
 			);
@@ -267,8 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E09C8E2822DB1500029B99 /* ViewController.m in Sources */,
+				79E09CCD2822DB3700029B99 /* mainMenuViewController.m in Sources */,
 				79E09C882822DB1500029B99 /* AppDelegate.m in Sources */,
 				79E09C992822DB1700029B99 /* main.m in Sources */,
+				79E09CCC2822DB3700029B99 /* resultsViewController.mm in Sources */,
+				79E09CC92822DB3700029B99 /* alogorithms.cpp in Sources */,
 				79E09C8B2822DB1500029B99 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E09CA32822DB1700029B99 /* Algo_FastTests.m in Sources */,
+				79E09CA32822DB1700029B99 /* Algo_FastTests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
